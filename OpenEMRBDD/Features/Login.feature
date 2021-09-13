@@ -5,7 +5,7 @@
 
 
 Scenario: Valid Credential 
-	Given I have browser with open emr page
+	Given I have browser with openemr page
 	When I enter username as "admin"
 	And I enter password as "pass"
 	And I select language as "English (Indian)"
