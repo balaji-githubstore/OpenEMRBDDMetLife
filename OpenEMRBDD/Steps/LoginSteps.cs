@@ -11,9 +11,18 @@ namespace OpenEMRBDD.Steps
     [Binding]
     public class LoginSteps 
     {
+        private readonly ScenarioContext scenarioContext;
+        private readonly FeatureContext featureContext;
+
+        public LoginSteps(FeatureContext featureContext, ScenarioContext scenarioContext)
+        {
+            this.scenarioContext = scenarioContext;
+            this.featureContext = featureContext;
+        }
         [Given(@"I have browser with open emr page")]
         public void GivenIHaveBrowserWithOpenemrPage()
         {
+            scenarioContext.Add("addpatient", "john");
             AutomationHooks.driver = new ChromeDriver(@"C:\Components");
             AutomationHooks.driver.Manage().Window.Maximize();
             AutomationHooks.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
