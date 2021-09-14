@@ -164,7 +164,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("expectedAlert", expectedAlert);
             argumentsOfScenario.Add("expectedvalue", expectedvalue);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add Patient", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 21
+#line 22
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -184,28 +184,28 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 22
+#line 23
  testRunner.Given("I have browser with open emr page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 23
+#line 24
  testRunner.When("I enter username as \'admin\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 24
+#line 25
  testRunner.And("I enter password as \'pass\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 25
+#line 26
  testRunner.And("I select language as \'English (Indian)\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 26
+#line 27
  testRunner.And("I click on login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 27
+#line 28
  testRunner.When("I mousehover on Patient/client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 28
+#line 29
  testRunner.And("I click on Patients", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 29
+#line 30
  testRunner.And("I click on add new patient", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -218,25 +218,25 @@ this.ScenarioInitialize(scenarioInfo);
                             string.Format("{0}", lastname),
                             string.Format("{0}", dob),
                             string.Format("{0}", gender)});
-#line 30
+#line 31
  testRunner.And("I fill the form", ((string)(null)), table3, "And ");
 #line hidden
-#line 33
+#line 34
  testRunner.And("I click on create new patient", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 34
+#line 35
  testRunner.And("I click on confirm create patient", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 35
+#line 36
  testRunner.And("I store and handle the alert", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 36
+#line 37
  testRunner.And("I close the pop when available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 38
  testRunner.Then(string.Format("I should validate the alert message shown as \'{0}\'", expectedAlert), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 38
+#line 39
  testRunner.And(string.Format("I should get the added patient details as \'{0}\'", expectedvalue), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

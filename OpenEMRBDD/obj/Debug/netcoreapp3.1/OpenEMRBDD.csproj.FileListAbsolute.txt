@@ -112,7 +112,6 @@ D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\obj\Debug\netcoreapp3.1\
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\obj\Debug\netcoreapp3.1\OpenEMRBDD.dll
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\obj\Debug\netcoreapp3.1\OpenEMRBDD.pdb
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\obj\Debug\netcoreapp3.1\OpenEMRBDD.genruntimeconfig.cache
-D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\obj\Debug\netcoreapp3.1\OpenEMRBDD.csproj.AssemblyReference.cache
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\bin\Debug\netcoreapp3.1\ExtentReports.dll
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 D:\B-Mine\Company\Company\MetLife\OpenEMRBDD\OpenEMRBDD\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
