@@ -60,11 +60,13 @@ namespace OpenEMRBDD.Features
         [When(@"I store and handle the alert")]
         public void WhenIStoreAndHandleTheAlert()
         {
-            DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(AutomationHooks.driver);
-            wait.Timeout = TimeSpan.FromSeconds(40);
-            wait.PollingInterval = TimeSpan.FromSeconds(1);
-            wait.IgnoreExceptionTypes(typeof(Exception));
+            //DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(AutomationHooks.driver);
+            //wait.Timeout = TimeSpan.FromSeconds(40);
+            //wait.PollingInterval = TimeSpan.FromSeconds(1);
+            //wait.IgnoreExceptionTypes(typeof(Exception));
 
+            WebDriverWait wait = new WebDriverWait(AutomationHooks.driver, TimeSpan.FromSeconds(40));
+            wait.IgnoreExceptionTypes(typeof(Exception));
 
             wait.Until(x=>x.SwitchTo().Alert());
 
