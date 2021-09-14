@@ -2,6 +2,7 @@
 using OpenEMRBDD.Hooks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 using System;
 using TechTalk.SpecFlow;
@@ -23,7 +24,7 @@ namespace OpenEMRBDD.Steps
         public void GivenIHaveBrowserWithOpenemrPage()
         {
             scenarioContext.Add("addpatient", "john");
-            AutomationHooks.driver = new ChromeDriver(@"C:\Components");
+            AutomationHooks.driver = new FirefoxDriver(@"C:\Components");
             AutomationHooks.driver.Manage().Window.Maximize();
             AutomationHooks.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             AutomationHooks.driver.Url = "https://demo.openemr.io/b/openemr";
